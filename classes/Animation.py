@@ -1,5 +1,6 @@
 class Animation:
     """Represent Animations"""
+    # After forking written one line
     def __init__(self, images, idleSprite=None, airSprite=None, deltaTime=7):
         self.images = images
         self.timer = 0
